@@ -6,8 +6,7 @@ def trianglenumbers(k=0):
 		total += k
 		k += 1
 		yield total
-		
-		
+			
 def circlegame(n):
 	values = []
 	for j in islice(trianglenumbers(), n):
